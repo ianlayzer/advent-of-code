@@ -11,6 +11,8 @@ if __name__=="__main__":
 
     solution = solution_module.Solution(year, day, example)
     result = solution.solve_part(part)
+
+    print(f"Part {part}:")
     print(result)
     
 
